@@ -14,9 +14,10 @@ app.get('/data', function(req, res){
     res.send("Hello babayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyy yenti sangathuluuuu!");
  });
  app.post('/hehe',(req,res)=>{
-     res.send(req.body)
+    //  console.log(req)
+    //  res.send("hiiiiiiiiiiii")
      app.get('/hehe',(req1,res1)=>{
-         res1.send(req.body)
+         res1.send("babayyy hehhehhehheheehheheheehehehhehehehehheheeheheh")
      })
  })
  
