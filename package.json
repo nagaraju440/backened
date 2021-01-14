@@ -1,0 +1,30 @@
+{
+  "name": "backened",
+  "version": "1.0.0",
+  "description": "for server to host in heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Nagaraju",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "firebase": "^7.19.1",
+    "firestore": "^1.1.6",
+    "http": "0.0.1-security",
+    "mongoose": "^5.10.7",
+    "simple-peer": "^9.9.3",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1",
+    "socket.io-stream": "^0.9.1",
+    "websocket": "^1.0.32",
+    "wrtc": "^0.4.6"
+  }
+}
