@@ -15,6 +15,9 @@ app.get('/data', function(req, res){
  });
  app.post('/hehe',(req,res)=>{
      res.send(req.body)
+     app.get('/hehe',(req1,res1)=>{
+         res1.send(req.body)
+     })
  })
  
 app.listen(PORT);
