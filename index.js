@@ -9,9 +9,12 @@ app.get('/data', function(req, res){
  });
  app.get('/data1', function(req, res){
     res.send("Hello data1!");
- });
+ })  ;
  app.get('/babay', function(req, res){
     res.send("Hello babayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyy yenti sangathuluuuu!");
  });
+ app.post('/hehe',(req,res)=>{
+     res.send(req.body)
+ })
  
 app.listen(PORT);
